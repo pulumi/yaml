@@ -16,12 +16,12 @@
 package yaml_test
 
 import (
-	. "gopkg.in/check.v1"
+	"gopkg.in/check.v1"
 	"testing"
 )
 
-func Test(t *testing.T) { TestingT(t) }
+func Test(t *testing.T) { check.TestingT(t) }
 
 type S struct{}
 
-var _ = Suite(&S{})
+var _ = check.Suite(&S{})
